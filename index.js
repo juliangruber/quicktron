@@ -6,6 +6,8 @@ const electron = require('electron')
 const { spawn } = require('child_process')
 const { resolve } = require('path')
 
-const main = resolve(process.argv[2])
+const args = process.argv
+  .slice(2)
+  .map(arg => (/^-/.test(arg) ? arg : resolve(arg)))
 
-spawn(electron, [`${__dirname}/app`, main])
+spawn(electron, [`${__dirname}/app`, ...args])
