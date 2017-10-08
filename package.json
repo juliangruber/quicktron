@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "repository": "juliangruber/electron-quick",
-  "description": "CLI for loading a script in an electron window",
+  "description": "Quickly load a script in an Electron window",
   "bin": {
     "electron-quick": "index.js"
   },
