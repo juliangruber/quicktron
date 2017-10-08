@@ -10,10 +10,6 @@ $ electron-quick script.js
 
 ![screenshot](screenshot.png)
 
-## Arguments
-
-- `--dev` Open devtools
-
 ## License
 
 MIT
