@@ -1,0 +1,21 @@
+{
+  "name": "electron-quick",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/electron-quick",
+  "description": "CLI for loading a script in an electron window",
+  "bin": {
+    "electron-quick": "index.js"
+  },
+  "scripts": {
+    "start": "./index.js example.js",
+    "test": "prettier-standard '**/*.js' && standard"
+  },
+  "dependencies": {
+    "electron": "^1.7.8"
+  },
+  "devDependencies": {
+    "prettier-standard": "^7.0.1",
+    "standard": "^10.0.3"
+  }
+}
