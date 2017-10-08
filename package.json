@@ -1,6 +1,6 @@
 {
   "name": "electron-quick",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "juliangruber/electron-quick",
   "description": "Quickly load a script in an Electron window",
