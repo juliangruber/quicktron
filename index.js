@@ -8,4 +8,4 @@ const { resolve } = require('path')
 
 const main = resolve(process.argv[2])
 
-spawn(electron, [`${__dirname}/app`, main])
+spawn(electron, [`${__dirname}/app`, main, ...process.argv.slice(3)])
