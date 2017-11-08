@@ -8,6 +8,12 @@ $ echo "document.body.innerHTML = 'Hello from Electron!'" > script.js
 $ electron-quick script.js
 ```
 
+The argument can also be an html file, like so:
+
+```bash
+$ electron-quick index.html
+```
+
 ![screenshot](screenshot.png)
 
 ## Arguments
