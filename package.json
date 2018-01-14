@@ -1,11 +1,11 @@
 {
-  "name": "electron-quick",
+  "name": "quicktron",
   "version": "1.3.0",
   "license": "MIT",
-  "repository": "juliangruber/electron-quick",
+  "repository": "juliangruber/quicktron",
   "description": "Quickly load a script in an Electron window",
   "bin": {
-    "electron-quick": "index.js"
+    "quicktron": "index.js"
   },
   "scripts": {
     "start": "./index.js example.js",

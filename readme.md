@@ -1,17 +1,17 @@
-# electron-quick
+# quicktron
 
 Quickly load a script in an [electron](https://electron.atom.io/) window!
 
 ```bash
-$ npm install -g electron-quick
+$ npm install -g quicktron
 $ echo "document.body.innerHTML = 'Hello from Electron!'" > script.js
-$ electron-quick script.js
+$ quicktron script.js
 ```
 
 The argument can also be an html file, like so:
 
 ```bash
-$ electron-quick index.html
+$ quicktron index.html
 ```
 
 ![screenshot](screenshot.png)
