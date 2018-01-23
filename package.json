@@ -1,6 +1,6 @@
 {
   "name": "quicktron",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "repository": "juliangruber/quicktron",
   "description": "Quickly load a script in an Electron window",
