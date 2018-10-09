@@ -1,5 +1,7 @@
 # quicktron
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/juliangruber/quicktron.svg)](https://greenkeeper.io/)
+
 Quickly load a script in an [electron](https://electron.atom.io/) window!
 
 ```bash
