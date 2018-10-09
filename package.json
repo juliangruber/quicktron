@@ -12,11 +12,11 @@
     "test": "prettier-standard '**/*.js' && standard"
   },
   "dependencies": {
-    "electron": "^1.8.4",
+    "electron": "^3.0.3",
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "prettier-standard": "^7.0.1",
-    "standard": "^10.0.3"
+    "prettier-standard": "^8.0.1",
+    "standard": "^11.0.1"
   }
 }
