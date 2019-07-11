@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict'
-process.title = 'electron-quick'
+process.title = 'quicktron'
 
 const electron = require('electron')
 const { spawn } = require('child_process')
