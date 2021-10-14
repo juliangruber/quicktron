@@ -12,7 +12,14 @@ const index = /\.js$/.test(argv._[0])
   : argv._[0]
 
 app.on('ready', () => {
-  win = new BrowserWindow({ width: 800, height: 600 })
+  win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    }
+  })
   win.loadURL(`file://${index}`)
   if (argv.dev) win.webContents.openDevTools()
 })
